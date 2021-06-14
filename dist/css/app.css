@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.space {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.topheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid #58402C;
+}
+.topheader nav a {
+  text-decoration: none;
+  color: #58402C;
+  font-size: 18px;
+  margin: 10px;
+}
+.topheader i {
+  font-size: 12px;
+  color: #58402C;
+}
+.topheader button {
+  padding: 10px;
+  border: 1px solid #2C4792;
+  color: #2C4792;
+  background-color: white;
+  border-radius: 5px;
+}
+.topheader button img {
+  width: 10px;
+  height: 10px;
+}
+
+.bottheader {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bottheader .leftheader {
+  width: 50%;
+}
+.bottheader .leftheader .conttitle h1 {
+  font-size: 3rem;
+  word-spacing: 20px;
+  line-height: 70px;
+  color: #58402C;
+}
+.bottheader .leftheader .conttitle p {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  word-spacing: 15px;
+  color: #58402C;
+}
+.bottheader .leftheader .contbutton {
+  margin-top: 50px;
+}
+.bottheader .leftheader .contbutton button {
+  padding: 5px;
+  background-color: #2C4792;
+  color: white;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.bottheader .leftheader .contbutton button > img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.bottheader .leftheader .contbutton p {
+  margin-top: 20px;
+  font-size: 15px;
+  vertical-align: middle;
+  color: #58402C;
+}
+.bottheader .leftheader .contbutton p > i {
+  vertical-align: middle;
+  font-size: 10px;
+  padding-left: 5px;
+  margin-bottom: 2px;
+  color: #58402C;
+}
+.bottheader .rightheader {
+  width: 50%;
+}
+.bottheader .rightheader img {
+  width: 100%;
+  height: 70%;
+}
